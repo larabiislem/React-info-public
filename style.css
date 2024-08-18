@@ -1,0 +1,75 @@
+.navbar
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+box-shadow: 2px 3px 4px black;
+   background-color: #21222A;
+}
+
+.img-title
+{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+.title
+{
+    display: inline-block;
+    color: rgb(96, 210, 255);
+}
+
+
+body
+{
+    font-family: Arial;
+    margin-top: 150px;
+    background-color: #21222A;
+    
+}
+.detail
+{
+    margin-left: 20px;
+    color: white;
+    
+   
+}
+
+.image
+{
+    width: 70px;
+
+}
+.desc
+{
+    margin-right: 50px;
+}
+.desc-title
+{
+    color: white;
+}
+.list
+{
+    list-style-type:disc;
+     
+}
+.list > li
+{
+    padding: 15px;
+}
+.list >li::marker
+{
+    color:rgb(96, 210, 255) ;
+    font-size: 1.4rem;
+}
+html
+{
+    position: relative;
+
+}
+
